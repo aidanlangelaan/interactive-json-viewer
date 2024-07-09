@@ -1,0 +1,38 @@
+<div *ngIf="jsonObject">
+  <ul>
+    <ng-container *ngFor="let key of getKeys(jsonObject)">
+      <li (click)="onNodeClick($event, key)">
+        <strong>{{ key }}:</strong>
+        <ng-container *ngIf="!isObjectOrArray(jsonObject[key])">
+          {{ jsonObject[key] }}
+        </ng-container>
+        <ng-container *ngIf="isObject(jsonObject[key])">
+          <interactive-json-viewer
+            [jsonString]="stringify(jsonObject[key])"
+            [parentPath]="buildPath(key)"
+            (nodeClicked)="onNodeClicked($event)"
+          ></interactive-json-viewer>
+        </ng-container>
+        <ng-container *ngIf="isArray(jsonObject[key])">
+          <ul>
+            <li
+              *ngFor="let item of jsonObject[key]; let i = index"
+              (click)="onNodeClick($event, key, i)"
+            >
+              <ng-container *ngIf="isObjectOrArray(item)">
+                <interactive-json-viewer
+                  [jsonString]="stringify(item)"
+                  [parentPath]="buildPath(key, i)"
+                  (nodeClicked)="onNodeClicked($event)"
+                ></interactive-json-viewer>
+              </ng-container>
+              <ng-container *ngIf="!isObjectOrArray(item)">
+                {{ item }}
+              </ng-container>
+            </li>
+          </ul>
+        </ng-container>
+      </li>
+    </ng-container>
+  </ul>
+</div>

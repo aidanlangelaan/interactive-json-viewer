@@ -1,0 +1,14 @@
+<main class="main">
+  <h1>Dynamic and interactive JSON viewer</h1>
+  <p>
+    This is a simple JSON viewer that allows you to interact with the JSON data.
+    By clicking on the JSON keys, you can retrieve the JSON-path for that key.
+  </p>
+
+  <p>Clicked Node Path: {{ clickedNodePath }}</p>
+
+  <interactive-json-viewer
+    [jsonString]="jsonExample1"
+    (nodeClicked)="onNodeClicked($event)"
+  ></interactive-json-viewer>
+</main>

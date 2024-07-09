@@ -1,0 +1,256 @@
+[
+  {
+    "_id": "668dabb487e1b263778fc14e",
+    "index": 0,
+    "guid": "ec821a87-669f-42d3-be65-302f5bc6b655",
+    "isActive": true,
+    "balance": "$1,130.66",
+    "picture": "http://placehold.it/32x32",
+    "age": 40,
+    "eyeColor": "blue",
+    "name": "Bush Andrews",
+    "gender": "male",
+    "company": "CINASTER",
+    "email": "bushandrews@cinaster.com",
+    "phone": "+1 (928) 449-2134",
+    "address": "603 Tabor Court, Gilgo, Missouri, 9070",
+    "about": "Commodo occaecat deserunt excepteur et minim ad. Nisi nisi incididunt ex exercitation non incididunt veniam anim est occaecat dolor commodo anim. In culpa nulla cupidatat voluptate aute dolore. Amet non consectetur quis ea nulla quis magna sit enim consectetur exercitation ex. Ex mollit officia in exercitation. Dolor non id do ea anim culpa eu ipsum Lorem qui labore. Velit duis ullamco duis laboris ad cupidatat cillum ex laborum tempor ad amet.\r\n",
+    "registered": "2015-03-28T11:56:27 -01:00",
+    "latitude": -42.672566,
+    "longitude": -80.136935,
+    "tags": ["aliqua", "nostrud", "do", "est", "minim", "pariatur", "aliquip"],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Bettye Townsend"
+      },
+      {
+        "id": 1,
+        "name": "Henderson Rosales"
+      },
+      {
+        "id": 2,
+        "name": "Lenore Jordan"
+      }
+    ],
+    "greeting": "Hello, Bush Andrews! You have 3 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "668dabb43127aa92acbe899e",
+    "index": 1,
+    "guid": "77f4a3d6-f592-453b-a89d-3f8a00ab8bb2",
+    "isActive": false,
+    "balance": "$2,520.81",
+    "picture": "http://placehold.it/32x32",
+    "age": 29,
+    "eyeColor": "green",
+    "name": "Kasey Reilly",
+    "gender": "female",
+    "company": "LOCAZONE",
+    "email": "kaseyreilly@locazone.com",
+    "phone": "+1 (989) 551-3904",
+    "address": "337 Cass Place, Bartley, Iowa, 6303",
+    "about": "Laboris irure ad nostrud laborum laboris velit culpa ea duis culpa qui commodo nostrud. Irure nisi consequat sint dolor est cupidatat esse ea aliquip esse tempor fugiat dolor reprehenderit. Non veniam quis magna consectetur eiusmod occaecat esse aliquip Lorem cillum.\r\n",
+    "registered": "2023-01-19T02:31:55 -01:00",
+    "latitude": -36.164983,
+    "longitude": 87.536324,
+    "tags": [
+      "pariatur",
+      "magna",
+      "exercitation",
+      "occaecat",
+      "laborum",
+      "nisi",
+      "non"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Bradshaw Sanders"
+      },
+      {
+        "id": 1,
+        "name": "Jocelyn Mccall"
+      },
+      {
+        "id": 2,
+        "name": "Peters Bauer"
+      }
+    ],
+    "greeting": "Hello, Kasey Reilly! You have 7 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "668dabb4ea82ab29f98cc3b8",
+    "index": 2,
+    "guid": "4bfb7e17-a7ab-48a2-bd28-bf7ff64c6dd9",
+    "isActive": false,
+    "balance": "$1,467.73",
+    "picture": "http://placehold.it/32x32",
+    "age": 36,
+    "eyeColor": "green",
+    "name": "Le Mayo",
+    "gender": "male",
+    "company": "XPLOR",
+    "email": "lemayo@xplor.com",
+    "phone": "+1 (831) 444-3539",
+    "address": "894 Hubbard Place, Allison, District Of Columbia, 534",
+    "about": "Velit laboris fugiat fugiat dolor commodo. Et tempor eiusmod sint cillum amet non dolor enim ex ullamco minim laboris ea. In qui et dolor ea cillum magna excepteur enim fugiat. Reprehenderit laborum occaecat reprehenderit exercitation tempor do laboris.\r\n",
+    "registered": "2018-01-05T02:50:28 -01:00",
+    "latitude": -58.216536,
+    "longitude": 27.691549,
+    "tags": [
+      "ipsum",
+      "sunt",
+      "magna",
+      "adipisicing",
+      "occaecat",
+      "veniam",
+      "id"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Murray Chandler"
+      },
+      {
+        "id": 1,
+        "name": "Mindy Shepard"
+      },
+      {
+        "id": 2,
+        "name": "Brock Howard"
+      }
+    ],
+    "greeting": "Hello, Le Mayo! You have 8 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "668dabb4739b5ee041c3ea59",
+    "index": 3,
+    "guid": "f42930f0-4b47-48f6-a4e2-8e0e07ba34cc",
+    "isActive": false,
+    "balance": "$1,243.23",
+    "picture": "http://placehold.it/32x32",
+    "age": 33,
+    "eyeColor": "green",
+    "name": "Krystal Day",
+    "gender": "female",
+    "company": "ZIPAK",
+    "email": "krystalday@zipak.com",
+    "phone": "+1 (904) 467-2537",
+    "address": "643 Foster Avenue, Brookfield, Puerto Rico, 9568",
+    "about": "Enim aute incididunt nostrud adipisicing officia esse. Eiusmod ea eiusmod sint velit incididunt voluptate veniam non adipisicing. Enim enim consectetur in laborum voluptate.\r\n",
+    "registered": "2023-09-03T09:09:05 -02:00",
+    "latitude": 59.67318,
+    "longitude": 118.612429,
+    "tags": [
+      "ea",
+      "labore",
+      "aute",
+      "proident",
+      "incididunt",
+      "tempor",
+      "ullamco"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Annette Delacruz"
+      },
+      {
+        "id": 1,
+        "name": "Ball Clarke"
+      },
+      {
+        "id": 2,
+        "name": "Christina Savage"
+      }
+    ],
+    "greeting": "Hello, Krystal Day! You have 3 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "668dabb440443651271862bc",
+    "index": 4,
+    "guid": "093968ab-d5b4-4651-b0a8-b9cd897d7dbe",
+    "isActive": true,
+    "balance": "$1,295.84",
+    "picture": "http://placehold.it/32x32",
+    "age": 40,
+    "eyeColor": "green",
+    "name": "Wright Miles",
+    "gender": "male",
+    "company": "ZIALACTIC",
+    "email": "wrightmiles@zialactic.com",
+    "phone": "+1 (943) 579-2144",
+    "address": "631 Huntington Street, Cresaptown, Idaho, 1779",
+    "about": "Aliqua laboris commodo aliquip aute nulla esse enim sit veniam. Et minim minim consectetur amet magna laboris ipsum laborum qui qui eiusmod officia velit ut. Excepteur pariatur irure ea ea et excepteur ea exercitation exercitation cillum pariatur.\r\n",
+    "registered": "2024-05-12T06:10:56 -02:00",
+    "latitude": 28.610385,
+    "longitude": -47.112807,
+    "tags": ["occaecat", "qui", "occaecat", "sit", "anim", "do", "irure"],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Guthrie Mcmillan"
+      },
+      {
+        "id": 1,
+        "name": "Kim Calhoun"
+      },
+      {
+        "id": 2,
+        "name": "Carroll Burt"
+      }
+    ],
+    "greeting": "Hello, Wright Miles! You have 6 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "668dabb4edfcf86de614b9b9",
+    "index": 5,
+    "guid": "dcf260c7-8976-4a61-b5b4-22da71351642",
+    "isActive": true,
+    "balance": "$1,210.37",
+    "picture": "http://placehold.it/32x32",
+    "age": 20,
+    "eyeColor": "brown",
+    "name": "Shari Ball",
+    "gender": "female",
+    "company": "DIGITALUS",
+    "email": "shariball@digitalus.com",
+    "phone": "+1 (923) 552-2420",
+    "address": "124 Montrose Avenue, Salunga, Palau, 573",
+    "about": "Ut aliquip incididunt ullamco cupidatat elit quis aute nisi voluptate enim magna. Anim ea quis cupidatat velit non nostrud labore elit velit laboris esse. Velit aliquip est excepteur in mollit nisi aliquip ipsum quis nisi. Sint nisi ea cupidatat duis aute anim culpa occaecat ut magna aute in consequat dolore. Ullamco eiusmod qui tempor non aliqua ut tempor irure voluptate dolore voluptate aliquip. Velit enim nisi do cillum deserunt eiusmod irure eu veniam laboris in sunt velit ut. Fugiat aliqua aliqua reprehenderit velit adipisicing et et aliqua fugiat velit eiusmod.\r\n",
+    "registered": "2019-10-08T08:32:39 -02:00",
+    "latitude": -23.323083,
+    "longitude": 3.248962,
+    "tags": [
+      "consequat",
+      "tempor",
+      "exercitation",
+      "aliquip",
+      "eiusmod",
+      "non",
+      "consectetur"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "French Gonzalez"
+      },
+      {
+        "id": 1,
+        "name": "Lynda Ortega"
+      },
+      {
+        "id": 2,
+        "name": "Santana Benton"
+      }
+    ],
+    "greeting": "Hello, Shari Ball! You have 10 unread messages.",
+    "favoriteFruit": "banana"
+  }
+]
