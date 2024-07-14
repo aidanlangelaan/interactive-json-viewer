@@ -23,7 +23,11 @@
               }"
               (click)="onNodeClick($event, key)"
             >
-              "{{ jsonObject[key] }}"
+              {{
+                isString(jsonObject[key])
+                  ? '"' + jsonObject[key] + '"'
+                  : jsonObject[key]
+              }}
             </span>
           </ng-container>
           <ng-container *ngIf="isObject(jsonObject[key])">
