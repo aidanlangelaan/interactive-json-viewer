@@ -7,8 +7,11 @@
 
   <p>Clicked Node Path: {{ clickedNodePath }}</p>
 
+  <button (click)="collapse()">Collapse all</button
+  ><button (click)="expand()">Expand all</button>
   <interactive-json-viewer
     [jsonString]="jsonExample1"
     (nodeClicked)="onNodeClicked($event)"
+    [collapsed]="collapsed"
   ></interactive-json-viewer>
 </main>

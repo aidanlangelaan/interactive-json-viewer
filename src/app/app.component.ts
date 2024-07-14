@@ -14,6 +14,7 @@ export class AppComponent {
   jsonExample1: string = '';
   jsonExample2: string = '';
   clickedNodePath: string = '';
+  collapsed: boolean = false;
 
   constructor() {
     this.loadExampleFile('./assets/files/example_1.json').then(
@@ -26,6 +27,14 @@ export class AppComponent {
         this.jsonExample2 = value;
       }
     );
+  }
+
+  collapse(): void {
+    this.collapsed = true;
+  }
+
+  expand(): void {
+    this.collapsed = false;
   }
 
   onNodeClicked(path: string): void {

@@ -1,7 +1,43 @@
-ul {
-  list-style-type: none;
-  padding-left: 20px;
-}
-li {
-  margin-bottom: 4px;
+.json-tree {
+  font-family: monospace;
+  background: lightgray;
+
+  ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+
+    li {
+      margin-bottom: 4px;
+      position: relative;
+
+      .json-key {
+        color: brown;
+        cursor: pointer;
+
+        .button {
+          position: absolute;
+          left: -25px;
+          top: -5px;
+        }
+      }
+
+      .json-string {
+        color: green;
+        cursor: pointer;
+      }
+      .json-number {
+        color: blue;
+        cursor: pointer;
+      }
+      .json-boolean {
+        color: red;
+        cursor: pointer;
+      }
+      .json-array-item {
+        color: blue;
+        cursor: pointer;
+      }
+    }
+  }
 }
